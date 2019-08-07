@@ -9,12 +9,12 @@ def map (array)
 end
 
 def reduce(array, stating_value*)
-  total = 0 
   
   if starting_value
     total = starting_value
     index = 0
   else
+    total = 0 
     
   end
   
