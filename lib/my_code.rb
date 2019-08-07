@@ -11,4 +11,10 @@ end
 def reduce(array, stating_value*)
   total = 0 
   
+  if starting_value
+    total = starting_value
+  else
+    
+  end
+  
 end
