@@ -13,6 +13,7 @@ def reduce(array, stating_value*)
   
   if starting_value
     total = starting_value
+    index = 0
   else
     
   end
