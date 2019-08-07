@@ -14,8 +14,8 @@ def reduce(array, stating_value*)
     total = starting_value
     index = 0
   else
-    total = 0 
-    
+    total = array[0]
+    index += 1 
   end
   
 end
