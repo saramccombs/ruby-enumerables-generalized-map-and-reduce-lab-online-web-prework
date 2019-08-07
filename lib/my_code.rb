@@ -19,6 +19,7 @@ def reduce(array, stating_value*)
   end
   
   while index < array.length do
-    total = 
+    total = yield(total, array[index])
+    index += 1 
   end
 end
