@@ -22,4 +22,6 @@ def reduce(array, stating_value*)
     total = yield(total, array[index])
     index += 1 
   end
+  
+  return total 
 end
